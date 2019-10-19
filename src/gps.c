@@ -47,7 +47,7 @@ char *mgos_get_location()
 
     json_printf(&out, "{lat: \"%f\", lon: \"%f\", sp: \"%f\"}", lat, lon, speed);
 
-    //mbuf_free(&fb);
+    mbuf_free(&fb);
 
     return fb.buf;
 }
