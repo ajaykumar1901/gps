@@ -1,7 +1,7 @@
 author: Alvaro Viebrantz
 type: lib
 description: Mongoose-OS gps library
-platforms: [ esp32 ]
+platforms: [ esp8266 ]
 version: 1.0
 
 sources:
